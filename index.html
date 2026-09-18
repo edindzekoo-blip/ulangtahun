@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="balloon balloon1">🎈</div>
+        <div class="balloon balloon2">🎈</div>
+        <div class="balloon balloon3">🎈</div>
+
+        <div class="card">
+            <div class="cake">🎂</div>
+
+            <h1>Selamat Ulang Tahun! 🎉</h1>
+
+            <h2>Untuk Kamu ❤️</h2>
+
+            <p class="message">
+                Hari ini adalah hari yang spesial karena seseorang yang luar biasa
+                sedang bertambah usia. ✨
+            </p>
+
+            <p class="message">
+                Semoga semua impianmu tercapai, selalu diberikan kebahagiaan,
+                kesehatan, dan dikelilingi orang-orang yang menyayangimu. 💕
+            </p>
+
+            <button onclick="surprise()">🎁 Buka Kejutan</button>
+
+            <div id="surprise" class="hidden">
+                <h2>🎊 HAPPY BIRTHDAY! 🎊</h2>
+                <p>
+                    Semoga hari ini menjadi awal dari tahun yang penuh
+                    kebahagiaan dan kenangan indah! 🌸
+                </p>
+                <div class="hearts">❤️ 💖 💕 💗 💓</div>
+            </div>
+
+            <button class="music-btn" onclick="playMusic()">
+                🎵 Putar Musik
+            </button>
+
+        </div>
+    </div>
+
+    <audio id="music" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
